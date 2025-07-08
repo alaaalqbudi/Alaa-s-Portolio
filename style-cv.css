@@ -1,0 +1,23 @@
+
+/* Responsive Typography */
+
+@media (max-width: 1200px) {
+  .typography h1 { font-size: 48px; }
+  .typography h2 { font-size: 36px; }
+  .typography h3 { font-size: 28px; }
+}
+
+@media (max-width: 768px) {
+  .typography h1 { font-size: 36px; }
+  .typography h2 { font-size: 28px; }
+  .typography h3 { font-size: 22px; }
+  .typography p  { font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+  .typography h1 { font-size: 28px; }
+  .typography h2 { font-size: 22px; }
+  .typography h3 { font-size: 18px; }
+  .typography p  { font-size: 13px; }
+  .typography small { font-size: 11px; }
+}

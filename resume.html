@@ -1,0 +1,328 @@
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Alaa's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-cv.css">
+ 
+ 
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
+      background: #f8f3ed;
+    }
+
+    
+h1{
+  color: #1b4214;
+  font: 2em sans ;
+  float: left;
+}
+  
+   .libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+ }
+    section {
+      padding: 40px ;
+       
+    }
+    .Button-1{
+    display: flex;
+    margin: 0 auto;
+    color: #1b4214;
+    border-radius: 3px;
+    width: 110px; 
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 5px;
+    align-items: center;
+    
+
+
+  }
+    .Button-1:hover {
+    background-color: #1b4214;
+    color: #f8f3ed;
+    border-radius: 4px;
+    
+  }
+  .skills-grid{
+    display: grid;
+    grid-template-columns: 40px;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  @media( min-width:768px){
+    .skills-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .skill-card{
+    padding: 20px;
+    border: 1px solid #1B4214;
+    border-radius: 10px;
+    border-width: 1px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 10px rgba(27, 66, 20, 0.3);
+    
+  }
+  
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #f8f3ed;
+      box-shadow: 0 10px 10px rgba(27, 66, 20, 0.3);
+      border: 1px #1B4214;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #1B4214;
+    }
+
+    th {
+      background-color: #303d2e;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1b4214;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navBar -->
+   <header>
+    <h1> ALAA ALHAWITI</h1>
+    <nav style=" float: right;margin-top: 10px; display: flex; align-items:center; gap: 10px;">
+      <a href="https://www.linkedin.com/in/alaa-alhawiti-56029b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+        <img src ="linkedin.png" alt="LinkedIn account" style="width: 24px; height: 24px; color: #1b4214;">
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <img src ="github.png" alt="github account" style="width: 24px; height: 24px;">
+      </a>
+       <a href="mailto:alsa29011@gmail.com">
+        <img src ="email.png" alt="Email account" style="width: 24px; height: 24px;">
+      </a>
+    </nav>
+  <header> 
+
+  <!-- landing page sections-->
+   <div class ="libertinus-mono-regular">
+    <br>
+    <br>
+    <br>
+    <br>
+   <section id="home" style="display: flex; align-items: left;">
+  <h2 style="font-size: 2em; margin-right: 20px;  color: #1b4214;">
+    <span style="margin: left 20px ; text-align: left;">Welcome to my</span><br>
+    <span style="font-size: 3cm;">PORTFOLIO</span>
+    <p style="font-size: medium;">Data Scientist and AI-Powered App Developer</p>
+    <a class="Button-1"  href="Resume.pdf" download="Resume.pdf"> Download CV</a>
+  </h2>
+  <img src="logo.webp" style="width:10cm;">
+</section>
+<br>
+<br>
+     </span>
+      </h2>
+
+    </section> <!--name,logo,-->
+     <br>
+     <br>
+     <br> 
+   <section style="display: flex; align-items: center; justify-content: space-between;  font: optional;" id="about">
+  <div style="flex: 1;">
+    <h2 style="color: #1b4214; display: flex;"> Hello, I'm Alaa</h2>
+    <p style="color: #1b4214;">
+      I'm a data enthusiast and problem solver with a deep passion for
+      <span style="font-weight: bold;">Data science</span> and turning raw data into meaningful, actionable insights.
+      While I have strong experience in
+      <span style="font-weight: bold;">Web app development</span>, my real excitement comes from working with data—exploring patterns, building predictive models,
+      and using analytics to drive smarter decisions.
+      <br><br>
+      I believe that data is one of the most powerful tools we have, and I love uncovering the
+      stories hidden within numbers—whether it's predicting trends, optimizing processes, or delivering personalized recommendations.
+      <br><br>
+      While web development allows me to present and deliver these insights through user-friendly applications,
+      <span style="font-weight: bold;">data science is where my heart lies.</span> I enjoy the challenge of messy, complex datasets and the thrill of
+      seeing a well-trained model make accurate predictions or discover valuable patterns.
+    </p>
+  </div>
+
+  <div style="flex-shrink: 0;">
+    <img src="loga2.webp" style="width: 10cm; max-width: 100%; height: auto;" alt="Alaa's logo">
+  </div>
+</section>
+       
+
+    </p>
+    
+    </section>
+    <div style="color: #1b4214; text-align: center;">
+    <section id="skills"><h2>My skills</h2>
+      <div class ="skills-grid">
+        <div class ="skill-card">
+        <h3 style="text-align: center;">Data science &  Machine learning</h3>
+        <p><span style="font-weight: bold;">Languages& Libraries:</span> Python(Pandas, NumPy, Scikit-learn) , Java, SQL.</p>
+        <p><span style ="font-weight: bold;">Data Preparation:</span> Data Preprocessing, Cleaning, Exploratory Data Analysis.</p>
+        </div>
+         <div class ="skill-card">
+        <h3 style="text-align: center;">Web development</h3>
+        <p><span style="font-weight: bold;">Tools</span> HTML, CSS, PHP, JAVASCRIPT </p>
+        <p><span style="font-weight: bold;">UI/UX</span> Figma</p>
+        </div>
+         <div class ="skill-card">
+        <h3 style="text-align: center;">soft skills</h3>
+        <p> Problem Solving & Critical Thinking
+           <br>Data-driven Decision Making
+           <br>Continuous Learning & Adaptability
+           <br>Effective Communication & Reporting
+          <br>Collaboration & Teamwork
+          <br>Project Planning & Time Management</p>
+        </div>
+         <div class ="skill-card">
+        <h3 style="text-align: center;">Gernal skills</h3>
+        <p>Research & Inormation analysis
+          <br> Technical writing
+          <br>Project Documnection
+        </p>
+
+        </div>
+      </div>
+      
+    
+    
+    </section> <!--soft ,technical(tools)-->
+    <section id="education"><h2>MY Education & Certificate</h2>
+      <table>
+  <thead>
+    <tr>
+      <th>Certificate</th>
+      <th>Provider</th>
+      <th>Date</th>
+      <th>View</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td>Bachelor’s Degree in Information Technology<br> (Excellent with First Class Honor) 
+</td>
+      <td>Tabuk University</td>
+      <td>Aug 2025  </td>
+      <td><a href="#" target="_blank">View</a></td>
+    </tr>
+     <td>Virtual work in data analysis</td>
+      <td>STC</td>
+      <td>Sep 2024</td>
+      <td><a href="stc.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+      <td>Google Data Analytics Specialisation</td>
+      <td>Google</td>
+      <td>Aug 2024</td>
+      <td><a href="data analysis google.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+      <td>Data Science and Machine Learning Bootcamp</td>
+      <td>Tuwaiq Academy</td>
+      <td>Aug – Oct 2024</td>
+      <td><a href="Data Science and Machine Learning Bootcamp.pdf" target="_blank">View</a></td>
+    </tr>
+     <tr>
+      <td>Machine learning Practitioner</td>
+      <td>Sdaia</td>
+      <td>Dec 2023 </td>
+      <td><a href="ml learning.pdf" alt="ml Practitioner" target="_blank">View</a></td>
+    </tr>
+  </tbody>
+</table>
+    </section> <!--education ,certifcate,experince-->
+
+    <section id="projects"><h2>project</h2>
+    <p><span style="font-weight: bold; font-style: italic;">PlanWealth– Smart Budgeting Web Application (Graduation Project)</span>
+    <br>Jan 2025
+    <br>- Developed a full-stack web application to help users manage personal finances by tracking income, expenses, and budgets.
+    <br>- Built using HTML, CSS, JavaScript for the frontend, PHP for the backend, and PostgreSQL for the database. 
+    <br>- Designed a dynamic dashboard displaying financial summaries and interactive charts for data visualization.
+    <br>- Implemented automated budget alerts when users exceed 90% of their set budget.
+    <br>- Integrated AI-based financial recommendations and monthly email notifications for users. </p>
+    <a href="#" target="_blank">View</a>
+
+    <p style="padding-top: 70px;"><span style="font-weight: bold; font-style: italic;"> Language Learning Assistant</span>
+    <br>Aug 2024 – Oct 2024
+     <br>- Developed an interactive language learning tool that converts written text into spoken audio
+     <br> to help users improve their listening and pronunciation skills. 
+    <br>- Built using Python, gTTS, Gradio, and hosted on Hugging Face Spaces. 
+    <br>- Integrated machine learning-based text-to-speech (TTS) conversion with adjustable language selection and speech speed control.
+    <br>- Created a user-friendly interface for real-time text input and audio playback. 
+    <br>- Utilized Pydub for audio format handling and enhanced audio file management.
+ </p>
+    <a href="https://github.com/alaaalqbudi/language-learning-assistant" target="_blank">View</a>
+
+    <p style="padding-top: 70px;"><span style="font-weight: bold; font-style: italic;"> Wallness</span>
+      <br> Nov 2023
+      <br>The Wellness Website is a vibrant and informative platform dedicated to promoting a healthy lifestyle through balanced nutrition, regular exercise, and overall well-being. It features a variety of sections including:
+<br>-Healthy Food: Guides and visuals that highlight nutritious meal options and their benefits.
+<br>-Exercise Tips: Pages focused on physical fitness routines to help users stay active and energized.
+<br>-Meal Planning: Suggestions for organizing meals that support wellness goals.
+    </p> 
+      <a href="https://alaahawiti.github.io/wellness-website/index.html" target="_blank">View</a>
+
+
+ 
+    
+    
+    </section>
+
+   </div>
+</body>
+</html>
+    
+    
+    
+
+
+
+
+
+
+
